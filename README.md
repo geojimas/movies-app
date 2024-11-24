@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+# Movie App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern movie application built with **Nuxt 3** that allows users to browse movies, view details, and get recommendations. The app fetches data from the **TMDB API** (The Movie Database API) to display up-to-date information about trending, popular, and upcoming movies.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Browse trending, now playing, and popular movies.
+- Display movie details such as release date, vote average, and overview.
+- Responsive and modern design with dynamic image loading.
+- SEO-friendly with server-side rendering (SSR) and lazy-loaded images for optimal performance.
+- SSR interactivity for efficient data fetching.
 
-```bash
-# npm
-npm install
+## Tech Stack
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Nuxt 3**: Framework for building the app with server-side rendering (SSR) support.
+- **Vue 3**: JavaScript framework used for building the user interface.
+- **TMDB API**: API for fetching movie data (posters, release dates, movie titles, etc.).
+- **Tailwind CSS**: Utility-first CSS framework for building a responsive UI.
+- **Nuxt Image**: Automatically optimized image delivery.
